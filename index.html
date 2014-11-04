@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Bootstrap : Native AngularJS (Angular) directives for Bootstrap. Small footprint (5kB gzipped!), no 3rd party JS dependencies (jQuery, bootstrap JS) required!">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Bootstrap by DurgaprasadPati</title>
+    <title>Bootstrap</title>
   </head>
 
   <body>
 
-    <header>
-      <div class="container">
-        <h1>Bootstrap</h1>
-        <h2>Native AngularJS (Angular) directives for Bootstrap. Small footprint (5kB gzipped!), no 3rd party JS dependencies (jQuery, bootstrap JS) required!</h2>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/DurgaprasadPati/bootstrap">View on GitHub</a>
 
-        <section id="downloads">
-          <a href="https://github.com/DurgaprasadPati/bootstrap/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/DurgaprasadPati/bootstrap/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/DurgaprasadPati/bootstrap" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+          <h1 id="project_title">Bootstrap</h1>
+          <h2 id="project_tagline">Native AngularJS (Angular) directives for Bootstrap. Small footprint (5kB gzipped!), no 3rd party JS dependencies (jQuery, bootstrap JS) required!</h2>
 
-    <div class="container">
-      <section id="main_content">
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/DurgaprasadPati/bootstrap/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/DurgaprasadPati/bootstrap/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h1>
 <a name="bootstrap---angularjs-directives-specific-to-bootstrap" class="anchor" href="#bootstrap---angularjs-directives-specific-to-bootstrap"><span class="octicon octicon-link"></span></a>bootstrap - <a href="http://angularjs.org/">AngularJS</a> directives specific to <a href="http://getbootstrap.com">Bootstrap</a>
 </h1>
 
-<hr><p><a href="http://travis-ci.org/angular-ui/bootstrap"><img src="https://secure.travis-ci.org/angular-ui/bootstrap.png" alt="Build Status"></a>
+<hr>
+
+<p><a href="http://travis-ci.org/angular-ui/bootstrap"><img src="https://secure.travis-ci.org/angular-ui/bootstrap.png" alt="Build Status"></a>
 <a href="https://david-dm.org/angular-ui/bootstrap#info=devDependencies"><img src="https://david-dm.org/angular-ui/bootstrap/dev-status.png?branch=master" alt="devDependency Status"></a></p>
 
 <h2>
@@ -62,7 +67,9 @@ Don't worry, if you are not sure which file to take, opt for <code>ui-bootstrap-
 <li>
 <strong>NuGet</strong>: <a href="https://nuget.org/packages/Angular.UI.Bootstrap/">https://nuget.org/packages/Angular.UI.Bootstrap/</a>
 </li>
-</ul><h2>
+</ul>
+
+<h2>
 <a name="supported-browsers" class="anchor" href="#supported-browsers"><span class="octicon octicon-link"></span></a>Supported browsers</h2>
 
 <p>Directives from this repository are automatically tested with the following browsers:</p>
@@ -73,7 +80,9 @@ Don't worry, if you are not sure which file to take, opt for <code>ui-bootstrap-
 <li>IE 9 and 10</li>
 <li>Opera</li>
 <li>Safari</li>
-</ul><p>Modern mobile browsers should work without problems.</p>
+</ul>
+
+<p>Modern mobile browsers should work without problems.</p>
 
 <p><strong>IE 8 is not officially supported at the moment</strong>. This project is run by volunteers and with the current number of commiters
 we are not in the position to guarantee IE8 support. If you need support for IE8 we would welcome a contributor who would like to take care about IE8.
@@ -85,7 +94,9 @@ Alternatively you could sponsor this project to guarantee IE8 support.</p>
 <li>including relevant shims (for ES5 we recommend <a href="https://github.com/kriskowal/es5-shim">https://github.com/kriskowal/es5-shim</a>)</li>
 <li>taking care of the steps described in <a href="http://docs.angularjs.org/guide/ie">http://docs.angularjs.org/guide/ie</a>
 </li>
-</ul><p>We are simply not regularly testing against IE8.</p>
+</ul>
+
+<p>We are simply not regularly testing against IE8.</p>
 
 <h2>
 <a name="project-philosophy" class="anchor" href="#project-philosophy"><span class="octicon octicon-link"></span></a>Project philosophy</h2>
@@ -121,7 +132,9 @@ In fact we are fortunate enough to <strong>benefit from the same testing infrast
 <li>Live help in the IRC (<code>#angularjs</code> channel at the <code>freenode</code> network). Use this <a href="https://webchat.freenode.net/">webchat</a> or your own IRC client.</li>
 <li>Ask a question in <a href="http://stackoverflow.com/">stackoverflow</a> under the <a href="http://stackoverflow.com/questions/tagged/angular-ui-bootstrap">angular-ui-bootstrap</a> tag.</li>
 <li>Write your question in our <a href="https://groups.google.com/forum/#!categories/angular-ui/bootstrap">mailing list</a>.</li>
-</ul><p>Project's issue on GitHub should be used discuss bugs and features.</p>
+</ul>
+
+<p>Project's issue on GitHub should be used discuss bugs and features.</p>
 
 <h2>
 <a name="contributing-to-the-project" class="anchor" href="#contributing-to-the-project"><span class="octicon octicon-link"></span></a>Contributing to the project</h2>
@@ -139,14 +152,18 @@ In fact we are fortunate enough to <strong>benefit from the same testing infrast
 <li>Install global dev dependencies: <code>npm install -g grunt-cli karma</code>
 </li>
 <li>Install local dev dependencies: <code>npm install</code> while current directory is bootstrap repo</li>
-</ul><h4>
+</ul>
+
+<h4>
 <a name="build" class="anchor" href="#build"><span class="octicon octicon-link"></span></a>Build</h4>
 
 <ul>
 <li>Build the whole project: <code>grunt</code> - this will run <code>lint</code>, <code>test</code>, and <code>concat</code> targets</li>
 <li>To build modules, first run <code>grunt html2js</code> then <code>grunt build:module1:module2...:moduleN</code>
 </li>
-</ul><p>You can generate a custom build, containing only needed modules, from the project's homepage.
+</ul>
+
+<p>You can generate a custom build, containing only needed modules, from the project's homepage.
 Alternatively you can run local Grunt build from the command line and list needed modules as shown below:</p>
 
 <div class="highlight highlight-javascript"><pre><span class="nx">grunt</span> <span class="nx">build</span><span class="o">:</span><span class="nx">modal</span><span class="o">:</span><span class="nx">tabs</span><span class="o">:</span><span class="nx">alert</span><span class="o">:</span><span class="nx">popover</span><span class="o">:</span><span class="nx">dropdownToggle</span><span class="o">:</span><span class="nx">buttons</span><span class="o">:</span><span class="nx">progressbar</span>
@@ -160,7 +177,9 @@ Alternatively you can run local Grunt build from the command line and list neede
 <ul>
 <li>Run test: <code>grunt watch</code>
 </li>
-</ul><p>This will start Karma server and will continuously watch files in the project, executing tests upon every change.</p>
+</ul>
+
+<p>This will start Karma server and will continuously watch files in the project, executing tests upon every change.</p>
 
 <h4>
 <a name="test-coverage" class="anchor" href="#test-coverage"><span class="octicon octicon-link"></span></a>Test coverage</h4>
@@ -241,10 +260,21 @@ Let's have a look:</p>
 <li>switch back to the <code>main branch</code> and modify <code>package.json</code> to bump up version for the next iteration</li>
 <li>commit (<code>chore(release): starting [version number]</code>) and push</li>
 <li>publish Bower and NuGet packages</li>
-</ul><p>Well done! (If you don't like repeating yourself open a PR with a grunt task taking care of the above!)</p>
+</ul>
+
+<p>Well done! (If you don't like repeating yourself open a PR with a grunt task taking care of the above!)</p>
       </section>
     </div>
 
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Bootstrap maintained by <a href="https://github.com/DurgaprasadPati">DurgaprasadPati</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
     
+
   </body>
 </html>
